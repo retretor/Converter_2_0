@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+
+    <string name="calculator_fragment">Calculator</string>
+    <string name="exchange_fragment">Exchange</string>
+
+
+    <string name="input_value_currency">0</string>
+    <string name="output_value_currency">0</string>
+    <string name="cost">Cost</string>
+    <string name="convert_btn">Convert</string>
+    <string name="rates_btn">Rates</string>
+    <string name="calculate_btn">Calculate</string>
+
+    <string name="usd">USD</string>
+    <string name="eur">EUR</string>
+    <string name="uah">UAH</string>
+
+    <string name="nbu">NBU</string>
+    <string name="priv">Private</string>
+
+    <string name="inverseButton">Inverse Button</string>
+    <string name="convert">Convert</string>
+    <string name="course_0">Course: 0.0</string>
+    <string name="value_0_0">0.0</string>
+    <string name="currency_from">Currency from:</string>
+    <string name="currency_to">Currency to:</string>
+    <string name="value_to">Value to:</string>
+    <string name="enter_value_from">Enter value from:</string>
+    <string name="select_bank">Select bank:</string>
+    <string name="flag">Flag</string>
+    <string name="_1_00">1.00</string>
+
+
+    <string-array name="currency_codes">
+        <item>UAH</item>
+        <item>USD</item>
+        <item>EUR</item>
+        <item>CAD</item>
+        <item>CNY</item>
+        <item>HRK</item>
+        <item>CZK</item>
+        <item>DKK</item>
+        <item>HKD</item>
+        <item>HUF</item>
+        <item>INR</item>
+        <item>IDR</item>
+        <item>ILS</item>
+        <item>JPY</item>
+        <item>KZT</item>
+        <item>KRW</item>
+        <item>MXN</item>
+        <item>MDL</item>
+        <item>NZD</item>
+        <item>NOK</item>
+        <item>RUB</item>
+        <item>SGD</item>
+        <item>ZAR</item>
+        <item>SEK</item>
+        <item>CHF</item>
+        <item>EGP</item>
+        <item>GBP</item>
+        <item>BYN</item>
+        <item>AZN</item>
+        <item>RON</item>
+        <item>TRY</item>
+        <item>XDR</item>
+        <item>BGN</item>
+        <item>PLN</item>
+        <item>DZD</item>
+        <item>BDT</item>
+        <item>AMD</item>
+        <item>DOP</item>
+        <item>IRR</item>
+        <item>IQD</item>
+        <item>KGS</item>
+        <item>LBP</item>
+        <item>LYD</item>
+        <item>MYR</item>
+        <item>MAD</item>
+        <item>PKR</item>
+        <item>SAR</item>
+        <item>VND</item>
+        <item>THB</item>
+        <item>AED</item>
+        <item>TND</item>
+        <item>UZS</item>
+        <item>TWD</item>
+        <item>TMT</item>
+        <item>RSD</item>
+        <item>TJS</item>
+        <item>GEL</item>
+        <item>BRL</item>
+        <item>XAU</item>
+        <item>XAG</item>
+        <item>XPT</item>
+        <item>XPD</item>
+    </string-array>
+    <string-array name="currency_codes_privat">
+        <item>UAH</item>
+        <item>USD</item>
+        <item>EUR</item>
+        <item>PLN</item>
+        <item>CHF</item>
+        <item>CZK</item>
+        <item>GBP</item>
+    </string-array>
+    <string-array name="bank_names">
+        <item>NBU</item>
+        <item>Privat Bank</item>
+    </string-array>
+</resources>

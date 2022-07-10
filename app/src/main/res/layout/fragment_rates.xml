@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/mainColor1"
+    tools:context=".ui.fragments.RatesFragment">
+
+    <Spinner
+        android:id="@+id/choice_rates_screen2"
+        android:layout_width="155dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="240dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#FFFFFF"
+        android:contentDescription="@string/nbu"
+        android:entries="@array/bank_names"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="409dp"
+        android:layout_height="591dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choice_rates_screen2"
+        app:layout_constraintVertical_bias="0.52">
+        <ImageView
+            android:id="@+id/item_1_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:contentDescription="@string/flag"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/item_1_title"
+            android:layout_width="236dp"
+            android:layout_height="39dp"
+            android:gravity="center"
+            android:text="Euro"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/item_1_image"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/item_1_buy_rate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="@string/_1_00"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/item_1_image"
+            app:layout_constraintLeft_toRightOf="@id/item_1_image"
+            app:layout_constraintStart_toStartOf="@+id/item_1_title"
+            app:layout_constraintTop_toBottomOf="@id/item_1_title" />
+
+        <TextView
+            android:id="@+id/item_1_sale_rate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:text="@string/_1_00"
+            app:layout_constraintBottom_toBottomOf="@+id/item_1_image"
+            app:layout_constraintEnd_toEndOf="@+id/item_1_title"
+            app:layout_constraintTop_toBottomOf="@id/item_1_title" />
+
+
+        <!--   .............................    -->
+
+        <ImageView
+            android:id="@+id/item_2_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/flag"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/item_1_image" />
+
+        <TextView
+            android:id="@+id/item_2_title"
+            android:layout_width="236dp"
+            android:layout_height="39dp"
+            android:gravity="center"
+            android:text="Dollar"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/item_1_image"
+            app:layout_constraintTop_toTopOf="@+id/item_2_image" />
+
+        <TextView
+            android:id="@+id/item_2_buy_rate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/_1_00"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/item_2_image"
+            app:layout_constraintLeft_toRightOf="@id/item_1_image"
+            app:layout_constraintStart_toStartOf="@+id/item_2_title"
+            app:layout_constraintTop_toBottomOf="@+id/item_2_title" />
+
+        <TextView
+            android:id="@+id/item_2_sale_rate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/_1_00"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/item_2_image"
+            app:layout_constraintEnd_toEndOf="@+id/item_2_title"
+            app:layout_constraintTop_toBottomOf="@+id/item_2_title" />
+
+
+        <!--   .............................    -->
+
+        <ImageView
+            android:id="@+id/item_3_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/flag"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/item_2_image" />
+
+        <TextView
+            android:id="@+id/item_3_title"
+            android:layout_width="236dp"
+            android:layout_height="39dp"
+            android:gravity="center"
+            android:text="Pound sterling"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/item_2_image"
+            app:layout_constraintTop_toTopOf="@+id/item_3_image" />
+
+        <TextView
+            android:id="@+id/item_3_buy_rate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/_1_00"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/item_3_image"
+            app:layout_constraintLeft_toRightOf="@id/item_2_image"
+            app:layout_constraintStart_toStartOf="@+id/item_3_title"
+            app:layout_constraintTop_toBottomOf="@+id/item_3_title" />
+
+        <TextView
+            android:id="@+id/item_3_sale_rate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/_1_00"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/item_3_image"
+            app:layout_constraintEnd_toEndOf="@+id/item_3_title"
+            app:layout_constraintTop_toBottomOf="@+id/item_3_title" />
+
+        <!--   .............................    -->
+
+        <ImageView
+            android:id="@+id/item_4_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="@string/flag"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/item_3_image" />
+
+        <TextView
+            android:id="@+id/item_4_title"
+            android:layout_width="236dp"
+            android:layout_height="39dp"
+            android:gravity="center"
+            android:text="Zloty"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/item_3_image"
+            app:layout_constraintTop_toTopOf="@+id/item_4_image" />
+
+        <TextView
+            android:id="@+id/item_4_buy_rate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/_1_00"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/item_4_image"
+            app:layout_constraintLeft_toRightOf="@id/item_3_image"
+            app:layout_constraintStart_toStartOf="@+id/item_4_title"
+            app:layout_constraintTop_toBottomOf="@+id/item_4_title" />
+
+        <TextView
+            android:id="@+id/item_4_sale_rate"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/_1_00"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="@+id/item_4_image"
+            app:layout_constraintEnd_toEndOf="@+id/item_4_title"
+            app:layout_constraintTop_toBottomOf="@+id/item_4_title" />
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
